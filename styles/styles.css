@@ -1,0 +1,83 @@
+
+/* Global */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -ms-animation: fadein 4s; /* Internet Explorer */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+     animation: fadein 4s;
+ }
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+/* Typography */
+
+h1 {
+	font-family: "BrandonGrotesque-Bold",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #8D7255;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+h2 {
+	font-family: "BrandonGrotesque-Bold",sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #cc9500;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+#products {
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Header and Navigation */
+
+.logo img {
+	padding-top: 20px;
+}
+
+.bg-faded {
+    background-color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: font-family: "BrandonGrotesque-Bold",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #8D7255;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    margin-right: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #cc9500;
+}
+
+
+/* Featured Products */
+
+a.addtobasket {
+    background: #CFA600 ;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
